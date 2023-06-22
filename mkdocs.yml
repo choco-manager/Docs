@@ -30,7 +30,7 @@ theme:
 nav:
   - "Главная": index.md
   - "Сервер":
-      - "Сервер": server/index.md
+      - server/index.md
       - "API Адресов": 
         - server/modules/addresses/index.md
         - "Список": server/modules/addresses/list.md
@@ -66,8 +66,22 @@ nav:
         - server/modules/productCategories/index.md
         - "Список": server/modules/productCategories/list.md
         - "Создание": server/modules/productCategories/create.md
-      - "API Товара": server/modules/products/index.md
-      - "API Поставок": server/modules/shipments/index.md
+      - "API Товара":   
+        - server/modules/products/index.md
+        - "Список": server/modules/products/list.md
+        - "Детали" : server/modules/products/get.md
+        - "Создание": server/modules/products/create.md
+        - "Обновление": server/modules/products/update.md
+        - "Удаление": server/modules/products/delete.md
+        - "Восстановление": server/modules/products/restore.md
+      - "API Поставок":   
+        - server/modules/shipments/index.md
+        - "Список": server/modules/shipments/list.md
+        - "Детали" : server/modules/shipments/get.md
+        - "Создание": server/modules/shipments/create.md
+        - "Обновление": server/modules/shipments/update.md
+        - "Удаление": server/modules/shipments/delete.md
+        - "Восстановление": server/modules/shipments/restore.md
 
 extra:
   social:
