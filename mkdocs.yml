@@ -32,6 +32,14 @@ nav:
   - "Сервер":
       - "Сервер": server/index.md
       - "API Адресов": server/modules/addresses/index.md
+      - "API Городов": server/modules/cities/index.md
+      - "API Клиентов": server/modules/clients/index.md
+      - "API Статусов Перемещения": server/modules/movementStatuses/index.md
+      - "API Заказов": server/modules/orders/index.md
+      - "API Типов Цен": server/modules/priceTypes/index.md
+      - "API Категорий Товара": server/modules/productCategories/index.md
+      - "API Товара": server/modules/products/index.md
+      - "API Поставок": server/modules/shipments/index.md
 
 extra:
   social:
