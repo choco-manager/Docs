@@ -62,7 +62,10 @@ nav:
       - "API Типов Цен":   
         - server/modules/priceTypes/index.md
         - "Список": server/modules/priceTypes/list.md
-      - "API Категорий Товара": server/modules/productCategories/index.md
+      - "API Категорий Товара":   
+        - server/modules/productCategories/index.md
+        - "Список": server/modules/productCategories/list.md
+        - "Создание": server/modules/productCategories/create.md
       - "API Товара": server/modules/products/index.md
       - "API Поставок": server/modules/shipments/index.md
 
