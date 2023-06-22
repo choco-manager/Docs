@@ -83,6 +83,12 @@ nav:
         - "Удаление": server/modules/shipments/delete.md
         - "Восстановление": server/modules/shipments/restore.md
 
+  - "Мобильное приложение":
+    - mobile/index.md
+  - "Маркет ВКонтакте":
+    - market/index.md
+  - "Веб-интерфейс":
+    - web/index.md
 extra:
   social:
     - icon: fontawesome/brands/github
