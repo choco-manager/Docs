@@ -15,6 +15,7 @@ theme:
   logo: assets/logo.jpg
   favicon: assets/logo.jpg
   features:
+    - navigation.indexes
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
@@ -28,6 +29,9 @@ theme:
 
 nav:
   - "Главная": index.md
+  - "Сервер":
+      - "Сервер": server/index.md
+      - "API Адресов": server/modules/addresses/index.md
 
 extra:
   social:
