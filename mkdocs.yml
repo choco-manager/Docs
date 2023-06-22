@@ -59,7 +59,9 @@ nav:
         - "Обновление": server/modules/orders/update.md
         - "Удаление": server/modules/orders/delete.md
         - "Восстановление": server/modules/orders/restore.md
-      - "API Типов Цен": server/modules/priceTypes/index.md
+      - "API Типов Цен":   
+        - server/modules/priceTypes/index.md
+        - "Список": server/modules/priceTypes/list.md
       - "API Категорий Товара": server/modules/productCategories/index.md
       - "API Товара": server/modules/products/index.md
       - "API Поставок": server/modules/shipments/index.md
