@@ -36,7 +36,10 @@ nav:
         - "Список": server/modules/addresses/list.md
         - "Создание": server/modules/addresses/create.md
         - "Генерация тестовых данных": server/modules/addresses/fake.md
-      - "API Городов": server/modules/cities/index.md
+      - "API Городов":
+        - server/modules/cities/index.md
+        - "Список": server/modules/cities/list.md
+        - "Создание": server/modules/cities/create.md
       - "API Клиентов": server/modules/clients/index.md
       - "API Статусов Перемещения": server/modules/movementStatuses/index.md
       - "API Заказов": server/modules/orders/index.md
