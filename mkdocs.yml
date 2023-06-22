@@ -47,7 +47,10 @@ nav:
         - "Обновление": server/modules/clients/update.md
         - "Создание": server/modules/clients/create.md
         - "Генерация тестовых данных": server/modules/clients/fake.md
-      - "API Статусов Перемещения": server/modules/movementStatuses/index.md
+      - "API Статусов Перемещения":  
+        - server/modules/movementStatuses/index.md
+        - "Список": server/modules/movementStatuses/list.md
+        - "Создание": server/modules/movementStatuses/create.md
       - "API Заказов": server/modules/orders/index.md
       - "API Типов Цен": server/modules/priceTypes/index.md
       - "API Категорий Товара": server/modules/productCategories/index.md
