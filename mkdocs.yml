@@ -31,7 +31,11 @@ nav:
   - "Главная": index.md
   - "Сервер":
       - "Сервер": server/index.md
-      - "API Адресов": server/modules/addresses/index.md
+      - "API Адресов": 
+        - server/modules/addresses/index.md
+        - "Список": server/modules/addresses/list.md
+        - "Создание": server/modules/addresses/create.md
+        - "Генерация тестовых данных": server/modules/addresses/fake.md
       - "API Городов": server/modules/cities/index.md
       - "API Клиентов": server/modules/clients/index.md
       - "API Статусов Перемещения": server/modules/movementStatuses/index.md
