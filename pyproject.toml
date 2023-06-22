@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "docs"
+version = "2.0.0-beta"
+description = "Docs of ChocoManager project"
+authors = ["Daniil <dadyarri@gmail.com>"]
+license = "GNU-GPL v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.1.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

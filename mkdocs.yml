@@ -1,0 +1,36 @@
+site_name: "ChocoManager Docs"
+copyright: Copyright &copy; 2023 dadyarri
+repo_url: https://github.com/choco-manager/Backend
+repo_name: choco-manager/Backend
+
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
+
+theme:
+  name: material
+  language: ru
+  logo: assets/logo.jpg
+  favicon: assets/logo.jpg
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - "Главная": index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/choco-manager
+
