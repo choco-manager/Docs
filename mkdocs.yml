@@ -33,4 +33,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/choco-manager
+  version:
+    provider: mike
 
