@@ -40,7 +40,13 @@ nav:
         - server/modules/cities/index.md
         - "Список": server/modules/cities/list.md
         - "Создание": server/modules/cities/create.md
-      - "API Клиентов": server/modules/clients/index.md
+      - "API Клиентов": 
+        - server/modules/clients/index.md
+        - "Список": server/modules/clients/list.md
+        - "Детали": server/modules/clients/get.md
+        - "Обновление": server/modules/clients/update.md
+        - "Создание": server/modules/clients/create.md
+        - "Генерация тестовых данных": server/modules/clients/fake.md
       - "API Статусов Перемещения": server/modules/movementStatuses/index.md
       - "API Заказов": server/modules/orders/index.md
       - "API Типов Цен": server/modules/priceTypes/index.md
