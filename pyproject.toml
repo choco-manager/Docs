@@ -7,10 +7,11 @@ license = "GNU-GPL v3"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
 mkdocs = "^1.4.3"
 mkdocs-material = "^9.1.16"
 mike = "^1.1.2"
+mkdocs-include-markdown-plugin = "^4.0.4"
 
 
 [build-system]

@@ -310,6 +310,18 @@ i18n = ["babel (>=2.9.0)"]
 min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4)", "ghp-import (==1.0)", "importlib-metadata (==4.3)", "jinja2 (==2.11.1)", "markdown (==3.2.1)", "markupsafe (==2.0.1)", "mergedeep (==1.3.4)", "packaging (==20.5)", "pyyaml (==5.1)", "pyyaml-env-tag (==0.1)", "typing-extensions (==3.10)", "watchdog (==2.0)"]
 
 [[package]]
+name = "mkdocs-include-markdown-plugin"
+version = "4.0.4"
+description = "Mkdocs Markdown includer plugin."
+category = "main"
+optional = false
+python-versions = "<3.12,>=3.7"
+files = [
+    {file = "mkdocs_include_markdown_plugin-4.0.4-py3-none-any.whl", hash = "sha256:792caa91c2c46fa174ad44caa786656ac3f475f2cef5ad33ad28a106f7bc4086"},
+    {file = "mkdocs_include_markdown_plugin-4.0.4.tar.gz", hash = "sha256:a5d569a653a610cbbe5b9c0ebb257ce7f94b453e93c3ae2c503b682e77465773"},
+]
+
+[[package]]
 name = "mkdocs-material"
 version = "9.1.16"
 description = "Documentation that simply works"
@@ -674,5 +686,5 @@ watchmedo = ["PyYAML (>=3.10)"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.11"
-content-hash = "ec06df72c9694bd96d2e1f8bf7ab654f9ca4fd4a3226d8992863cbdba8a37d59"
+python-versions = ">=3.11,<3.12"
+content-hash = "deac50c5b5944a24946a4f0ed66ecfed5d40a15efec0a26c2b6bb1d01bcf77fa"
