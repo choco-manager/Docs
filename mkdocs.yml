@@ -8,6 +8,7 @@ plugins:
       lang: 
         - en
         - ru
+  - include-markdown
 
 theme:
   name: material
